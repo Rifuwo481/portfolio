@@ -3,94 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: white;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #003366;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #00aaff;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 40px;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #003366;
+        }
+
+        /* Lists in sections */
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        ul li {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        ul li strong {
+            font-size: 1.2rem;
+            color: #003366;
+        }
+
+        /* Links in Contact section */
+        .contact-link {
+            text-decoration: none;
+            color: #003366;
+            font-size: 1.2rem;
+            margin: 10px;
+            display: inline-block;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .contact-link:hover {
+            color: #00aaff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* Hover effects for section titles */
+        h2:hover {
+            color: #00aaff;
+            cursor: pointer;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <div class="container">
             <h1>Rifuwo Arise Dzamukeri</h1>
-            <p>Web Developer | Designer</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <p>Information Science</p>
         </div>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I am Rifuwo Arise Dzamukeri, a passionate web developer and designer. I have experience building dynamic websites and applications. I love working with creative designs and solving complex problems through technology.</p>
-            <p>My goal is to create seamless user experiences and beautiful interfaces that people love to interact with.</p>
-        </div>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi, I’m Rifuwo Arise Dzamukeri, a 23-year-old passionate Information Science professional. I graduated with a Bachelor's degree in Information Science from the University of Pretoria, where I achieved Cum Laude honors. I also hold an Honors degree in Information Science, which has further deepened my expertise in this field.
+
+Throughout my career, I have worked in various roles, including Assistant Lecturer and Cataloger. In these positions, I’ve gained valuable experience working with recordable information and knowledge, utilizing Information and Communication Technologies (ICTs) to advance their management and use. I am driven by my enthusiasm for utilizing ICTs to solve complex business problems and enhance operational efficiency.
+
+My passion lies in harnessing the power of information and technology to make informed decisions and create solutions that meet business challenges. I’m always eager to apply my knowledge and skills in real-world scenarios and continue growing in the exciting field of Information Science.</p>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML5 & CSS3</li>
-                <li>JavaScript (ES6+)</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>Git & GitHub</li>
-                <li>Responsive Web Design</li>
-                <li>UI/UX Design</li>
-            </ul>
-        </div>
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor's Degree in Information Science</strong> - University of Pretoria, 2020-2022 Grade (75%)</li>
+            <li><strong>Honors Degree in Information Science</strong> - University of Pretoria, 2023-2023 Grade (70%)</li>
+        </ul>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-
-            <div class="project">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>This is a brief description of the project. It involves using HTML, CSS, JavaScript, and React.</p>
-                <a href="https://github.com/yourusername/project1" target="_blank">View Project</a>
-            </div>
-
-            <div class="project">
-                <img src="project2.jpg" alt="Project 2">
-                <h3>Project Title 2</h3>
-                <p>This project demonstrates my ability to build full-stack web applications using Node.js and MongoDB.</p>
-                <a href="https://github.com/yourusername/project2" target="_blank">View Project</a>
-            </div>
-
-            <!-- Add more projects as needed -->
-        </div>
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Assistant lecturer </strong> - University of Pretoria, 2024 Feb -2024 Dec<br>As an Assistant Lecturer, I supported the delivery of academic content, assisting professors in preparing materials and conducting classes. I also provided guidance and support to students, helping them grasp complex concepts and engage with course material effectively. My role involved administrative tasks, grading assignments, and contributing to research efforts, all while fostering a positive learning environment..</li>
+            <li><strong>Catalouger</strong> - University of Pretoria, 2023 Jul-2024 Dec<br>As a Cataloger, I was responsible for organizing and maintaining information and resources within a library or database. My role involved classifying materials, ensuring proper indexing, and creating detailed records to make information easily accessible. I worked with various cataloging systems and metadata standards, ensuring that information was accurately stored and easily retrievable for users..</li>
+        </ul>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch or collaborate on a project, feel free to contact me via the methods below:</p>
-            <ul>
-                <li>Email: your.email@example.com</li>
-                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-            </ul>
-        </div>
+    <section id="achievements" class="section">
+        <h2>Achievements & Certifications</h2>
+        <ul>
+            <li><strong>Certification Name</strong> - Issuing Organization, Year</li>
+            <li><strong>Achievement Title</strong> - Details about your accomplishment.</li>
+        </ul>
     </section>
 
-    <!-- Footer Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email or connect with me on LinkedIn:</p>
+        <ul>
+            <li><a href="mailto:your.email@example.com" class="contact-link">Email</a></li>
+            <li><a href="https://www.linkedin.com/in/your-linkedin" class="contact-link">LinkedIn</a></li>
+            <li><a href="path-to-your-cv.pdf" class="contact-link" download>Download CV</a></li>
+        </ul>
+    </section>
+
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Your Name. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Rifuwo Arise. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
+
+
+
+
 

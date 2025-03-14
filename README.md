@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository! This website showcases my skills, education, experience, and achievements in Information Science and ICT Management.
 
 ## 🚀 Live Demo
-[Check out my portfolio here](#) *(Update with your portfolio link)*
+[Check out my portfolio here](https://rifuwo481.github.io/portfolio/)
 
 ## 📌 Features
 - Responsive design for all devices 📱💻

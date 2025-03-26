@@ -1,7 +1,8 @@
 # Rifuwo Arise Dzamukeri - Portfolio
 
-Welcome to my personal portfolio repository! This website showcases my skills, education, experience, and achievements in Information Science and ICT Management.
-![portfolio screenshot](assets/screenshot(7).png)
+Welcome to my personal portfolio repository! This website showcases my skills, education, experience, and achievements in Information Science and ICT Management
+
+![portfolio screenshot](assets/Screenshot%20(7).png)
 
 ## 🚀 Live Demo
 [Check out my portfolio here](https://rifuwo481.github.io/portfolio/)
